@@ -108,10 +108,11 @@
 }
 .gpxvision {
   background-color: #4aaaa5;
-  width: 250px;
-  position:absolute;
+  width: inherit;
+  position:absolute !important;
   top:80%;
   left:50%;
+  line-height: 40px;
   transform: translateX(-50%) translateY(-50%);
   margin: 0;
   text-align:center;
@@ -135,12 +136,18 @@
 #icons a {
   padding-right: 5px;
 }
-.imageWrap {
-  width: 250px;
+.imageContainer {
+  width: inherit;
+}
+.imageWrap, .projectImage, .gpxvision {
   position: relative;
   float: left;
   padding: 0 20px 0 20px;
   margin-bottom: 20px;
+}
+.imageWrap a {
+  width: inherit;
+  padding: 0;
 }
 .imageWrap p {
   color: #ffffff;
@@ -198,9 +205,7 @@
   border-right: solid 2px;
   padding: 4px;
 }
-div.projects  {
-  background-color: #333
-}
+
 .row {
   margin-right: -15px;
   margin-left: -15px;

@@ -116,6 +116,18 @@
   #icons {
     text-align: left;
   }
+  .imageContainer {
+    width: 100%;
+  }
+  .imageWrap a {
+    width: 100%;
+  }
+  .projects img {
+    height: 300px;
+  }
+  .projectImage img{
+    padding: 0
+  }
   #nameContainer {
     float: left;
     min-height: 50px;
@@ -202,6 +214,9 @@
   .contentArea {
     width: 100%;
   }
+  .gpxvision {
+    top: 90%;
+  }
   #icons {
     text-align: left;
   }
@@ -219,5 +234,8 @@
   }
   .nav-items a {
     padding: 0 25px 0 25px;
+  }
+  .projectImage img{
+    padding: 0
   }
 }
