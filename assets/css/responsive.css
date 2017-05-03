@@ -107,6 +107,9 @@
   .container {
     width: inherit;
   }
+  .connect {
+    margin-left: 0;
+  }
   .connect p {
     text-align: left;
   }

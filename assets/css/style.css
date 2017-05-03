@@ -67,7 +67,7 @@
 .connect {
   background-color: #ffffff;
   /*max-width: 648px;*/
-  /*margin-left: 20px;*/
+  margin-left: 20px;
   /*width: 270px;*/
   /*float: left;*/
   padding: 10px;
@@ -133,7 +133,7 @@
   padding: 15px;
 }
 #icons a {
-  padding-right: 15px;
+  padding-right: 5px;
 }
 .imageWrap {
   width: 250px;
