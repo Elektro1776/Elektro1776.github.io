@@ -17,7 +17,9 @@ html {
 }
 footer {
   background-color: #666666;
+  border-top: #4aaaa5 solid 4px;
   min-height: 100px;
+  margin-top: 20px;
 }
 footer p {
   color: #ffffff;

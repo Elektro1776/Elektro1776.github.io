@@ -1,8 +1,9 @@
 /* SIZING CLASSES*/
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 769px) {
   .aboutImage {
     clear: right;
+
   }
   .aboutImage img {
     height: 300px;
@@ -10,18 +11,6 @@
   .aboutMe {
     clear: both;
   }
-  .col-m-12 {
-    width: 100%;
-  }
-  .container {
-    width: auto;
-  }
-  .contentArea {
-    width: 500px;
-  }
-}
-@media (max-width: 768px) {
-  /* Tablet */
   .col-m-1 {
     width: 8.33%
   }
@@ -58,21 +47,31 @@
   .col-m-12 {
     width: 100%;
   }
-  /* End Tablet*/
   .container {
-    width: 500px;
+    width: auto;
+  }
+  #icons {
+    padding: 15px;
+  }
+  #nameContainer {
+    margin-left: 10%;
   }
 }
-@media (max-width: 640px) {
-  /* For mobile phones: */
-  .aboutImage img {
-    height: 300px;
+@media (max-width: 768px) and (min-width: 640px) {
+  .aboutMe {
+    clear: none;
   }
-  /* Mobile */
+  .aboutImage {
+    height: 250px;
+  }
+  .aboutImage img {
+    height: 250px;
+  }
+  /* Tablet */
   .col-s-1 {
     width: 8.33%
   }
-  .col-s-2 {
+  .col-2-2 {
     width: 16.66%;
   }
   .col-s-3 {
@@ -105,6 +104,83 @@
   .col-s-12 {
     width: 100%;
   }
+  .container {
+    width: inherit;
+  }
+  .connect p {
+    text-align: left;
+  }
+  #icons {
+    text-align: left;
+  }
+  #nameContainer {
+    float: left;
+    min-height: 50px;
+    background-color: #4aaaa5;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .nav {
+    margin-bottom: 20px;
+  }
+  .nav-items {
+    width: 400px;
+    margin-right: 0;
+  }
+  .nav-items a {
+    padding: 0 25px 0 25px;
+  }
+}
+/* End Tablet*/
+@media (max-width: 640px) and (min-width: 200px){
+  /* For mobile phones: */
+  .aboutImage {
+    height: auto;
+    overflow: auto;
+    padding: inherit;
+    float: none;
+  }
+  .aboutImage img {
+    height: 300px;
+  }
+  /* Mobile */
+  .col-xs-1 {
+    width: 8.33%
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
   /* End Mobile*/
   [class*="col-"] {
       width: 100%;
@@ -130,6 +206,9 @@
     width: 100%;
     text-align: center;
     margin-left: 0;
+  }
+  .nav {
+    margin-bottom: 20px;
   }
   .nav-items {
     width: 100%;
