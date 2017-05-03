@@ -139,6 +139,9 @@
 .imageContainer {
   width: inherit;
 }
+.imageContainer img {
+  padding: 0;
+}
 .imageWrap, .projectImage, .gpxvision {
   position: relative;
   float: left;

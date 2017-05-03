@@ -196,9 +196,6 @@
     width: 100%;
   }
   /* End Mobile*/
-  [class*="col-"] {
-      width: 100%;
-  }
   .connect {
     width: 100%;
     margin: 20px 0 20px 0
