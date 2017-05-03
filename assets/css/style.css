@@ -81,6 +81,9 @@
   text-align: center;
   padding-bottom: 20px;
 }
+#contact {
+  width: 100%;
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
