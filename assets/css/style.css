@@ -146,7 +146,7 @@
   margin-bottom: 20px;
 }
 .imageWrap a {
-  width: inherit;
+  width: 100%;
   padding: 0;
 }
 .imageWrap p {
